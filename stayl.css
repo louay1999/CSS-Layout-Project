@@ -1,0 +1,480 @@
+
+body {
+    font-family: Roboto,Arial,sans-serif;
+    margin:0 50px;
+    margin-top: 100px;
+    
+
+}
+.main-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 3;
+  background: hsla(0,0%,100%,.98);
+  transition: box-shadow .25s ease 0s
+}
+
+
+
+.section__inner {
+    max-width: 1015px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-docplanner {
+    max-width: 150px; /* Adjust this value to change the maximum width of the logo */
+    height: auto;
+    background-color: #ffffff; /* Add your desired background color here */
+    padding: 10px; /* Add padding for some space around the image */
+    border-radius: 8px; /* Add rounded corners for a neat look */
+   
+}
+
+
+.main-nav {
+  list-style: none;
+  font-size: .9375rem;
+  font-weight: 400;
+  line-height: 2em;
+  padding: 1.33em 0
+}
+
+.main-menu {
+    list-style: none;
+    padding: 0;
+}
+
+.main-menu li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.main-menu a {
+  color: #ababab;
+  display: block;
+  text-decoration: none;
+  padding: 0 .6em
+}
+
+.main-menu a.is-current,
+.main-menu a:hover {
+    color: #19b797;
+}
+
+.ll{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    color: #099f8b;
+}
+.lead__logo{ 
+    max-width: 150px; /* Adjust this value to change the maximum width of the logo */
+    height: auto;
+    margin-bottom: 20px; /* Add some space between the text and the logo */
+
+}
+.tex{
+  font-size: 2.125rem;
+  color: #00b39b
+   
+}
+
+.ll .grid {
+  display: grid;
+    grid-template-columns: 1fr; /* Set the grid layout */
+    gap: 20px; /* Add some space between grid items */
+    
+    justify-content: center;
+    margin: 0 -10px;
+}   
+.col1 .col2{
+    flex-basis: 50%; /* Adjust this value to control the width of the columns */
+    color: #070707;
+    padding: 10px;
+    float: left; 
+   
+   
+    
+}
+.par1{
+  margin: .8em 0;
+  line-height: 1.75;
+  font-weight: 400
+  
+  
+}
+.par2{
+  margin: .8em 0;
+  line-height: 1.75;
+  font-weight: 400
+}
+.mm {
+  flex-basis: 50%; /* Adjust this value to control the width of the columns */
+  color: #8f8c8c;
+  padding: 50px;
+  float: left;
+  text-align: center;
+  
+}
+
+
+/* Optional: Add margin for spacing between columns */
+.col1 {
+    margin-right: 2%; /* Adjust as needed */
+    width: 100%;
+    
+}
+[class*=col1] {
+    float: left;
+    min-height: 1px;
+    padding: 10px
+   }
+   .a1>.a11 {
+    transform: translate(0);
+    opacity: 1
+}
+
+.a1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 1015px;
+    zoom: 1;
+    padding: 0 250px;
+    position: relative;
+    font: inherit;
+    font-size: 1.2rem;
+}
+
+.a1 >  div {
+    flex: 1;
+    max-width: 30%; /* Adjust this value to control the width of each column */
+    margin: 10px;
+    padding: 20px;
+    background-color: #0f9369;
+    border-radius: 10px;
+    text-align: center;
+}
+.a1> .a12{
+  background-color: #0e4dee;
+}
+.a1> .a13{
+  background-color: #0e0e0f;
+}
+
+.a1  h1 {
+  font-size: 1.625em;
+  font-weight: 400;
+  color: #fff;
+  margin: .3em 0;
+}
+.a1 > .a11> .zz{
+  width: 100%;
+  background: transparent;
+  border: 0;
+  border-radius: 0;
+  padding: 0 2em 0 0;
+  -webkit-appearance: none;
+  outline: 0;
+  text-transform: none;
+  text-decoration: underline;
+  cursor: pointer;
+  color: #fcfcfc;
+  
+}
+.a1 >.a12 >.domain-switcher{
+  width: 100%;
+  background: transparent;
+  border: 0;
+  border-radius: 0;
+  padding: 0 2em 0 0;
+  -webkit-appearance: none;
+  outline: 0;
+  text-transform: none;
+  text-decoration: underline;
+  cursor: pointer;
+  color: #fcfcfc;
+}
+.a1>.a13>.dom{
+  width: 100%;
+  background: transparent;
+  border: 0;
+  border-radius: 0;
+  padding: 0 2em 0 0;
+  -webkit-appearance: none;
+  outline: 0;
+  text-transform: none;
+  text-decoration: underline;
+  cursor: pointer;
+  color: #fcfcfc;
+}
+
+.a1 h2 {
+  font-size: 1.5em;
+  font-weight: 300;
+  line-height: 1.2;
+  margin: 0;
+  color: #fff
+}
+.bsi {
+    margin: 2.5rem auto 3.125rem
+}
+.bsi h1 {
+    float: left;
+    width: 33%;
+    font-size: 1.625em;
+    margin: .25em 0 .35em;
+    padding-right: 1em
+
+}
+.bsi {
+    text-align: center;
+    background-color: #fbfdfd; /* Set background color */
+    padding: 50px; /* Add padding for spacing */
+}
+
+.bsi h1 {
+  margin: 1em 0;
+  font-family: Work Sans,Arial,sans-serif;
+  font-weight: 300;
+  letter-spacing: -.3px;
+  font-size: 2.125rem;
+  color: #00b39b
+}
+/* Apply styles to the unordered list */
+ul.brands__logos {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  font-size: 0;
+  list-style: none;
+  
+  }
+  
+  /* Style each list item */
+  ul.brands__logos> li {
+    font-size: 1rem;
+    display: inline-block;
+    margin-top: 0;
+    padding: 5px 0 5px 5px;
+    width: 25%;
+  }
+  
+  /* Style the anchor element */
+  ul.brands__logos> li> a {
+    text-decoration: none;
+  }
+  
+  /* Style the images */
+  ul.brands__logos> li> img {
+    max-width: 100%;
+    height: auto;
+    border: 0; /* Remove border if any */
+  }
+/* Apply styles to the stats section */
+.stats {
+    background-color: #e5faf8; /* Set the background color */
+    padding: 50px 200px; /* Add padding as needed */
+
+  }
+  
+  /* Style the si class */
+  .si {
+    text-align: left; /* Center the content */
+    margin: 0 -10px;
+    box-sizing: inherit;
+    
+  }
+  
+  /* Style the grid class */
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr; /* Set the grid layout */
+    gap:  20px; /* Add some space between grid items */
+    display: flex;
+    margin: 0 -10px;
+    box-sizing: inherit;
+    
+    
+  }
+  
+  /* Style the c2sh class */
+  .c2sh {
+    font-family: Arial, sans-serif; /* Set the font */
+    color: #0b9d83; /* Set the text color */
+    
+  }
+  
+  /* Style the h1 element */
+  .c2sh h1 {
+    font-size: 2em; /* Set the font size */
+    margin-bottom: 10px; /* Add some space below the heading */
+  }
+  
+  /* Style the p element */
+  .c2sh p {
+    font-size: 1.2em; /* Set the font size */
+    margin-bottom: 20px; /* Add some space below the paragraph */
+    color: #000;
+  }
+  /* Apply styles to the col2 class */
+.col2 {
+    width: 48%; /* Set the width of each column */
+    float: left; /* Float the columns to create a two-column layout */
+    margin: 0 1%; /* Add some space between columns */
+
+  }
+  
+  /* Apply styles to the gsgfe class */
+  .gsgfe {
+    background-color: #f5f5f5; /* Set a background color for the container */
+    padding: 10px 20px; /* Add some padding inside the container */
+    text-align: center;
+    margin-top: 30px; /* Center the content */
+    
+  }
+  
+  /* Apply styles to the va class */
+  .va img {
+    max-width: 100%; /* Ensure images don't exceed their container width */
+  }
+  
+  .va h3 {
+    font-size: 1.5em; /* Set the font size for the heading */
+    margin: 10px 0; /* Add some space around the heading */
+    color: #8dded1;
+  }
+  
+  .va p {
+    font-size: 1em; /* Set the font size for the paragraph */
+  }
+  
+  /* Clear floats after the columns */
+  .col2:nth-child(2n+1) {
+    clear: both;
+  }
+  .bb {
+    max-width: 460px;
+    margin: 0 auto 4.1875rem;
+    font-size: .875em;
+    text-align: center;
+}
+  .bb >h1{
+    font-size: 2.1428571429em;
+    margin: 0 auto;
+    color: #00b39b;
+    font-family: Work Sans,Arial,sans-serif;
+    font-weight: 300;
+    letter-spacing: -.3px;
+  }
+  
+  .bb > p{
+    color: #000;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+  }
+  .of {
+    text-align: center; /* Centre le contenu */
+    box-sizing: inherit;
+    margin: 0 -10px;
+    zoom: 1;
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+.azert{
+  display: flex;
+  flex-flow: row;
+  text-align: justify;
+  width: 50%;
+  background: #fff;
+}
+.im1 {
+    display: inline-block; /* Fait en sorte que les éléments soient affichés en ligne */
+    margin: 10px; /* Ajoute un peu de marge entre les éléments */
+}
+.im1 img {
+    max-width: 100%; /* Fait en sorte que les images ne dépassent pas la largeur de leur conteneur */
+}
+
+/* Styles pour l'image 3D */
+.image3D {
+    width: 200px; /* Définissez la largeur de l'image 3D selon vos besoins */
+    height: auto; /* Assurez-vous que la hauteur s'ajuste automatiquement en fonction de la largeur */
+    border: 2px solid #ccc; /* Ajoute une bordure grise de 2 pixels */
+    transform: perspective(800px) rotateX(20deg); /* Applique une perspective 3D et une rotation */
+    transition: transform 0.3s ease; /* Ajoute une transition fluide lors de l'interaction */
+}
+
+.image3D:hover {
+    transform: perspective(800px) rotateX(0deg); /* Lorsque survolée, réinitialise la rotation */
+}
+
+    .btn{
+      
+      display: inline-block;
+      vertical-align: middle;
+      position: relative;
+      outline: 0;
+      border: 0;
+      border-radius: 4px;
+      padding: 1.1666666667em 1.5em;
+      background: #3d83df;
+      font-family: Roboto,Arial,sans-serif;
+      line-height: 1em;
+      color: #fff;
+      font-weight: 700;
+      letter-spacing: .04em;
+      font-size: .75rem;
+      text-align: left;
+      text-decoration: none!important;
+      text-transform: uppercase;
+      transition: all .2s ease 0s;
+      left: 70px;
+      
+    }
+    .of.p{
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    }
+    .js {
+     
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 50vh; /* This sets the height of the section to 100% of the viewport height */
+      
+    }
+    footer {
+      background-color: #f8f8f8;
+      padding: 20px;
+      text-align: center;
+      font-size: 14px;
+  }
+  
+  footer a {
+      text-decoration: none;
+      color: #0c67df;
+      margin: 0 5px;
+  }
+  
